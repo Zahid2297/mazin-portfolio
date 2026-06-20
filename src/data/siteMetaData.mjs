@@ -1,0 +1,22 @@
+export const siteMetadata = {
+  title: "Syed Mazin Raza portfolio",
+  author: "Syed Mazin Raza",
+  headerTitle: "Syed Mazin Raza",
+  description:
+    "Video editor specializing in DaVinci Resolve and cinematic storytelling",
+  language: "en-us",
+  theme: "light",
+  siteName: "syedmazinraza.com",
+  siteUrl: "https://syedmazinraza.com",
+  siteRepo: "https://github.com/BUMBAIYA/amitchauhan-v2",
+  siteLogo: "/favicon.ico",
+  image: "/static/homepage.png",
+  twitterImage: "/static/homepage.png",
+  socialBanner: "/static/homepage.png",
+  email: "mazincreatesofficial@gmail.com",
+  github: "https://github.com/BUMBAIYA",
+  twitter: "https://twitter.com/amitcha2638",
+  linkedin: "https://www.linkedin.com/in/amitchauhan-dev",
+  locale: "en-US",
+  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+};
