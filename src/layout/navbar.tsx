@@ -71,6 +71,8 @@ export default function Navbar(props: NavbarProps) {
               src="/static/Bodyfb.png"
               alt="Logo"
               fill
+              priority
+              unoptimized
               className="object-contain"
               sizes="56px"
             />
