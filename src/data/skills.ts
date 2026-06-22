@@ -1,177 +1,144 @@
 import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+  BiMovie,
+  BiFilm,
+  BiMoviePlay,
+  BiVideo,
+  BiPalette,
+  BiColorFill,
+  BiAdjust,
+  BiMerge,
+  BiTargetLock,
+  BiCameraMovie,
+  BiMusic,
+  BiEqualizer,
+  BiMicrophone,
+  BiSync,
+  BiBook,
+  BiTime,
+  BiBulb,
+} from "react-icons/bi";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
-import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
-
-// Libraries
-import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
-import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
-
-// Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
-
-// Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
-
-// Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "Editing",
     skills: [
       {
-        name: "HTML",
-        icon: HtmlSvg,
+        name: "Video Editing",
+        icon: BiFilm,
       },
       {
-        name: "CSS",
-        icon: CsssSvg,
+        name: "Cinematic Editing",
+        icon: BiMoviePlay,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
+        name: "Short-Form Content",
+        icon: BiMovie,
       },
       {
-        name: "Javascript",
-        icon: JavascriptSvg,
-      },
-      {
-        name: "Typescript",
-        icon: TypescriptSvg,
-      },
-      {
-        name: "Python",
-        icon: PythonSvg,
+        name: "Long-Form Content",
+        icon: BiVideo,
       },
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Color",
     skills: [
       {
-        name: "Reactjs",
-        icon: ReactjsSvg,
+        name: "Color Grading",
+        icon: BiPalette,
       },
       {
-        name: "Nextjs",
-        icon: SiNextdotjs,
+        name: "Color Correction",
+        icon: BiColorFill,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
+        name: "Color Management",
+        icon: BiAdjust,
       },
     ],
   },
   {
-    sectionName: "Backend",
+    sectionName: "Motion & VFX",
     skills: [
       {
-        name: "Nodejs",
-        icon: NodejsSvg,
+        name: "Motion Graphics",
+        icon: BiMerge,
       },
       {
-        name: "Express",
-        icon: SiExpress,
+        name: "Fusion Compositing",
+        icon: BiTargetLock,
       },
       {
-        name: "Socket.io",
-        icon: SiSocketdotio,
+        name: "Motion Tracking",
+        icon: BiCameraMovie,
       },
       {
-        name: "Flask",
-        icon: SiFlask,
+        name: "Green Screen",
+        icon: BiVideo,
       },
     ],
   },
   {
-    sectionName: "Databases and ORMs",
+    sectionName: "Audio",
     skills: [
       {
-        name: "MongoDB",
-        icon: MongoDBSvg,
+        name: "Sound Design",
+        icon: BiMusic,
       },
       {
-        name: "Postgress",
-        icon: PostgressSvg,
+        name: "Audio Mixing",
+        icon: BiEqualizer,
       },
       {
-        name: "Prisma",
-        icon: SiPrisma,
+        name: "Audio Cleanup",
+        icon: BiMicrophone,
+      },
+      {
+        name: "Audio Synchronization",
+        icon: BiSync,
       },
     ],
   },
   {
-    sectionName: "Tools and Technologies",
+    sectionName: "Storytelling",
     skills: [
       {
-        name: "Git",
-        icon: GitSvg,
+        name: "Visual Storytelling",
+        icon: BiBook,
       },
       {
-        name: "Docker",
-        icon: DockerSvg,
+        name: "Narrative Editing",
+        icon: BiTime,
       },
       {
-        name: "AWS",
-        icon: AwsSvg,
+        name: "Pacing & Timing",
+        icon: BiTime,
       },
       {
-        name: "Postman",
-        icon: PostmanSvg,
+        name: "Creative Direction",
+        icon: BiBulb,
+      },
+    ],
+  },
+  {
+    sectionName: "Tools",
+    skills: [
+      {
+        name: "DaVinci Resolve",
+        icon: BiCameraMovie,
+      },
+      {
+        name: "Frame.io",
+        icon: BiMovie,
+      },
+      {
+        name: "Canva",
+        icon: BiPalette,
+      },
+      {
+        name: "Audacity",
+        icon: BiMusic,
       },
     ],
   },

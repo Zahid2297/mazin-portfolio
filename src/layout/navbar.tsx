@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -6,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import MenuLogo from "@/components/utility/menu-button";
 import ThemeSwitch from "@/components/utility/theme-switch";
-import AnimatedLogo from "@/animation/animated-logo";
+
 import MobileMenu from "@/components/utility/mobile-menu";
 import { classNames } from "@/utility/classNames";
 
@@ -66,7 +67,13 @@ export default function Navbar(props: NavbarProps) {
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
-            <AnimatedLogo />
+            <Image
+              src="/static/Bodyfb.png"
+              alt="Logo"
+              fill
+              className="object-contain"
+              sizes="56px"
+            />
           </div>
         </Link>
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50 md:flex">

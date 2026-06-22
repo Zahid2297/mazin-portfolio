@@ -2,7 +2,6 @@ import Head from "next/head";
 
 import { NextSeo } from "next-seo";
 
-import Footer from "@/layout/footer";
 import LandingHero from "@/components/landing-hero";
 import SkillsShowcase from "@/components/skills/skills-showcase";
 import ProjectCard from "@/components/projects/project-card";
@@ -76,7 +75,9 @@ export default function Home() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am constantly exploring new editing techniques and creating content that blends creativity, storytelling, and impactful visuals.
+              I am constantly exploring new editing techniques and creating
+              content that blends creativity, storytelling, and impactful
+              visuals.
             </span>
           </div>
         </div>
